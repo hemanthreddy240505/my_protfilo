@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <!-- <section id="home" class="d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">I'm a passionate developer who loves building amazing projects.</p>
+      <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+  </section> -->
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="pro_2.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <p class="lead">Hi, I'm Hemanth Reddy,<br> A python developer with expertise in python, data structures, and java. I enjoy solving complex problems and building scalable applications.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/hemanth-reddy-843a0032b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" class="btn btn-outline-primary">LinkedIn</a>
+            <a href="https://github.com/hemanthreddy240505" target="_blank" rel="noopener" class="btn btn-outline-secondary">GitHub</a>
+            <a href="https://leetcode.com/progress/" target="_blank" rel="noopener" class="btn btn-outline-success">LeetCode</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Bachelor of Science in Artificial inteligence and data science</h5>
+              <p class="card-text">Annamacharya institute of science and technology ,Tirupathi 2022 - 2026</p>
+              <p class="card-text">Relevant coursework: Data Structures, Algorithms, Web Development, Machine Learning, Artifical Inteligence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Schooling</h5>
+              <p class="card-text">SDR World school,Nandayala</p>
+              <h5 class="card-title">Intermediate</h5>
+              <p class="card-text">Sri Chaitanya junior college ,kurnool 2020 - 2022</p>
+              <p class="card-text">Focus: Mathematics, Physics, and Computer Science.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <!-- <img src="rps.jpg" class="card-img-top" alt="Project 1"> -->
+            <div class="card-body">
+              <h5 class="card-title">Tic Tac Toe game using Python</h5>
+              <p class="card-text">Tic Tac Toe is a simple two-player game where players mark spaces on a 3×3 grid with X and O. The
+                goal is to get three of your marks in a row, either horizontally, vertically, or diagonally.
+                · use functions like display-board() to print the grid, player-move() to handle player input, check-win()
+                to verify win conditions, and check-draw() to detect a tie. Control statements like if/else check game
+                conditions, while loops run the game until it ends.
+                · Input/output statements (input() and print()) interact with players, and list operations manage the game
+                board. These components ensure smooth game play logic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <!-- <img src="ngs.jpg" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Number Gussing Using Python</h5>
+              <p class="card-text">This Software Generates an Input value where the player should enter the guessed value, it also displays
+                the chances remaining to guess. After completing the limits given, if the guessed number is right, the
+                player wins else loses.
+                · The range between the number can be as of Programmers choice. It can be high as from 1-100 or low as
+                0-10. Depending upon the clients requirements.
+                · If the number you have guessed is high or low to the actual value, the application sends you an alert.
+                After the limited attempt is completed, actual value is revealed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <!-- <img src="speech.jpg" class="card-img-top" alt="Project 3"> -->
+            <div class="card-body">
+              <h5 class="card-title">A speech recognition system using Python</h5>
+              <p class="card-text">This project implements a speech recognition system using Python, which enables users to interact with computers using voice commands. The system utilizes the Google Speech Recognition API to transcribe spoken words into text.
+                .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Certifications</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="acc.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Data Analyst from accenture</h5>
+              <p class="card-text">certification of the data analyst from accenture .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="pws.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Power BI from PWC</h5>
+              <p class="card-text">certification of completion of power BI from PWC .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="cd.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Iternship from CodeSoft IT Solutions</h5>
+              <p class="card-text">certification of completion of internship from CodeSoft as Java programer .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; Hemanth reddy</p>
+      <a href="https://github.com/hemanthreddy240505" target="_blank" rel="noopener" class="text-white">GitHub Repository</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and Custom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

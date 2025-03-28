@@ -1,0 +1,31 @@
+/* Custom Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#home {
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.social-links .btn {
+  margin: 5px;
+}
